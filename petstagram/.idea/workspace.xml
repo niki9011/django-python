@@ -4,35 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/petstagram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/petstagram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/petFunctions.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/petFunctions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/petProfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/petProfile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/photoDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/photoDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/profileFunctions.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/profileFunctions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/register-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-add-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-add-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-add-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-add-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" afterDir="false" />
+    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/common/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/niki9011/PycharmProjects/python-web-django/petstagram&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/niki9011/Downloads/python-web-basics-demos-main/6-workshop-petstagram/petstagram",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/css" />
@@ -129,12 +106,24 @@
       <workItem from="1685111577983" duration="3605000" />
       <workItem from="1685115706482" duration="4502000" />
       <workItem from="1685138581937" duration="513000" />
-      <workItem from="1685212600016" duration="647000" />
+      <workItem from="1685212600016" duration="1348000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1685213485160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685213485161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
