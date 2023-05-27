@@ -4,47 +4,117 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2671e25-224b-494c-b304-59167ebb6c61" name="Changes" comment="delete">
-      <change afterPath="$PROJECT_DIR$/../.idea/python-web-django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/common/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/common/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/petFunctions.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/petFunctions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/petProfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/petProfile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/photoDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/photoDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/profileFunctions.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/profileFunctions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/are_you_sure_cat.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/are_you_sure_cat.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/axolotl.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/axolotl.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/dog-on-bed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/dog-on-bed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/dog-on-road.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/dog-on-road.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/edit-pen-icon-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/edit-pen-icon-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/ezgif.com-gif-maker.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ezgif.com-gif-maker.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/free-30-instagram-stories-icons23_122570.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/free-30-instagram-stories-icons23_122570.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/icon-remove-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icon-remove-22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/logo-with-name.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo-with-name.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/no_posts.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/no_posts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/zillow-404-page-5f3ed6a6abaa5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/zillow-404-page-5f3ed6a6abaa5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/login-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/register-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/partials/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pets/pet-add-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-add-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pets/pet-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-details-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/photos/photo-add-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-add-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/photos/photo-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-details-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2PkAADptEVx5t5ydFDaR7GUEyuE" />
+  <component name="ProjectId" id="2QJhvV7XGxePc2PCgmYiO4c4WyB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/niki9011/PycharmProjects/python-web-django/petstagram",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/petstagram/photos" />
+      <recent name="$PROJECT_DIR$/petstagram/pets" />
+      <recent name="$PROJECT_DIR$/petstagram/common" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/common" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/pets" />
+      <recent name="$PROJECT_DIR$/templates/photos" />
+      <recent name="$PROJECT_DIR$/templates/accounts" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="petstagram" type="Python.DjangoServer" factoryName="Django server">
       <module name="petstagram" />
@@ -74,62 +144,32 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2671e25-224b-494c-b304-59167ebb6c61" name="Changes" comment="" />
-      <created>1683990559240</created>
+      <changelist id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="" />
+      <created>1685077822231</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683990559240</updated>
-      <workItem from="1683990574721" duration="530000" />
-      <workItem from="1684001689341" duration="630000" />
-      <workItem from="1684065685396" duration="34000" />
-      <workItem from="1684067610203" duration="1470000" />
-      <workItem from="1684070194307" duration="710000" />
-      <workItem from="1684085096944" duration="24000" />
-      <workItem from="1684155843864" duration="32000" />
-      <workItem from="1684162376817" duration="609000" />
-      <workItem from="1684241520942" duration="8000" />
-      <workItem from="1684258486504" duration="8000" />
-      <workItem from="1684258504146" duration="1951000" />
-      <workItem from="1684312441508" duration="36000" />
-      <workItem from="1684331944922" duration="273000" />
-      <workItem from="1684340004639" duration="953000" />
-      <workItem from="1684419366228" duration="13000" />
-      <workItem from="1684508509246" duration="62000" />
-      <workItem from="1684536020579" duration="3000" />
-      <workItem from="1684600646306" duration="500000" />
-      <workItem from="1684694433942" duration="709000" />
-      <workItem from="1684783979878" duration="485000" />
+      <updated>1685077822231</updated>
+      <workItem from="1685077827417" duration="5324000" />
+      <workItem from="1685085411194" duration="1415000" />
+      <workItem from="1685100768629" duration="2912000" />
+      <workItem from="1685111577983" duration="3605000" />
+      <workItem from="1685115706482" duration="4502000" />
+      <workItem from="1685138581937" duration="513000" />
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1683990892268</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683990892268</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <created>1683990954898</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683990954898</updated>
-    </task>
-    <task id="LOCAL-00003" summary="delete">
-      <created>1683991006907</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1683991006907</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
-    <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/petstagram/common/views.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,14 +1,13 @@
 from django.shortcuts import render
 
 
-def add_photo(request):
-    return render(request, 'photos/photo-add-page.html')
+def photo_add(request):
+    pass
 
 
-def details_photo(request, pk):
-    return render(request, 'photos/photo-details-page.html')
+def photo_details(request):
+    pass
 
 
-def edit_photo(request, pk):
-    return render(request, 'photos/photo-edit-page.html')
-
+def photo_edit(request):
+    pass
