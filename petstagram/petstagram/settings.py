@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'petstagram.common',
     'petstagram.accounts',
     'petstagram.pets',
-    'petstagram.photos',
+    'petstagram.photos'
 ]
 
 MIDDLEWARE = [
