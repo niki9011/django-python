@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="home-page.html replace whit  base.html">
-      <change beforePath="$PROJECT_DIR$/../.idea/python-web-django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/python-web-django.iml" afterDir="false" />
+    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="remove identical content html files">
+      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0002_alter_pet_slug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9c86e5e-1a5c-4ea5-85ad-045ffc84d148.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-delete-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-edit-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/register-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-add-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-add-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-delete-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pets/pet-edit-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-add-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-add-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-details-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-edit-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/pets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +54,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -126,7 +125,12 @@
       <workItem from="1685223734333" duration="262000" />
       <workItem from="1685224200052" duration="428000" />
       <workItem from="1685269559076" duration="4421000" />
-      <workItem from="1686057323653" duration="3085000" />
+      <workItem from="1686057323653" duration="3339000" />
+      <workItem from="1686064792140" duration="3257000" />
+      <workItem from="1686068073184" duration="1034000" />
+      <workItem from="1686079248341" duration="5624000" />
+      <workItem from="1686087400714" duration="349000" />
+      <workItem from="1686087764299" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1685213485160</created>
@@ -156,18 +160,37 @@
       <option name="project" value="LOCAL" />
       <updated>1685271103843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove identical content html files">
+      <created>1686061520178</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686061520178</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="urls update" />
     <MESSAGE value="home-page.html and base.html update" />
     <MESSAGE value="home-page.html replace whit  base.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="home-page.html replace whit  base.html" />
+    <MESSAGE value="remove identical content html files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove identical content html files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
