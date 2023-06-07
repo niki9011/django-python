@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="remove identical content html files">
-      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petstagram/pets/migrations/0002_alter_pet_slug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9c86e5e-1a5c-4ea5-85ad-045ffc84d148.xml" beforeDir="false" />
+    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="add models in pets&#10;add models in photos">
+      <change afterPath="$PROJECT_DIR$/petstagram/photos/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/photos/migrations/0002_rename_date_of_publications_photo_date_of_publication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/photos/migrations/0003_alter_photo_location_alter_photo_pet_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petstagram/photos/validators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/pets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petstagram/pets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/pets/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petstagram/photos/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petstagram/photos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -130,7 +128,9 @@
       <workItem from="1686068073184" duration="1034000" />
       <workItem from="1686079248341" duration="5624000" />
       <workItem from="1686087400714" duration="349000" />
-      <workItem from="1686087764299" duration="1378000" />
+      <workItem from="1686087764299" duration="1590000" />
+      <workItem from="1686128114037" duration="66000" />
+      <workItem from="1686130380725" duration="5985000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1685213485160</created>
@@ -167,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686061520178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add models in pets&#10;add models in photos">
+      <created>1686089502331</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686089502331</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add models in pets&#10;add models in photos">
+      <created>1686089526609</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686089526609</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +204,8 @@
     <MESSAGE value="home-page.html and base.html update" />
     <MESSAGE value="home-page.html replace whit  base.html" />
     <MESSAGE value="remove identical content html files" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove identical content html files" />
+    <MESSAGE value="add models in pets&#10;add models in photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models in pets&#10;add models in photos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
