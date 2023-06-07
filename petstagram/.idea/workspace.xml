@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="add models in pets&#10;add models in photos">
-      <change afterPath="$PROJECT_DIR$/petstagram/common/migrations/0001_initial.py" afterDir="false" />
+    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="add models in common and register admin">
+      <change afterPath="$PROJECT_DIR$/petstagram/common/migrations/0002_like.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petstagram/common/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/common/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petstagram/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/photos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
       <workItem from="1686087400714" duration="349000" />
       <workItem from="1686087764299" duration="1590000" />
       <workItem from="1686128114037" duration="66000" />
-      <workItem from="1686130380725" duration="8669000" />
+      <workItem from="1686130380725" duration="9328000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1685213485160</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686157750737</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add models in common">
+      <created>1686160691999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686160691999</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +222,8 @@
     <MESSAGE value="home-page.html replace whit  base.html" />
     <MESSAGE value="remove identical content html files" />
     <MESSAGE value="add models in pets&#10;add models in photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="add models in pets&#10;add models in photos" />
+    <MESSAGE value="add models in common" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models in common" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
