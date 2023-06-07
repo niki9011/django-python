@@ -22,3 +22,6 @@ class Photo(models.Model):
     location = models.CharField(max_length=30, blank=True, null=False)
     tagged_pets = models.ManyToManyField(Pet, blank=True)
     date_of_publication = models.DateField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.pk} - {self.pet_image}"
