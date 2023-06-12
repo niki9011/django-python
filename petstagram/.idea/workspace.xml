@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="add like and share &#10;update common view and urls&#10;update home-page.html&#10;update pet-details-page.html">
+    <list default="true" id="779d12ea-b845-4294-b080-9366a1a45453" name="Changes" comment="update photo-details-page.html">
+      <change afterPath="$PROJECT_DIR$/static/images/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee0755e6-b16d-46d1-9cdf-f270d3ed9421/storage_v2/_src_/database/petstagram_db.pWcQMw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee0755e6-b16d-46d1-9cdf-f270d3ed9421/storage_v2/_src_/database/petstagram_db.pWcQMw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ee0755e6-b16d-46d1-9cdf-f270d3ed9421/storage_v2/_src_/database/petstagram_db.pWcQMw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ee0755e6-b16d-46d1-9cdf-f270d3ed9421/storage_v2/_src_/database/petstagram_db.pWcQMw/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petstagram/photos/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/petstagram/photos/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photos/photo-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/photos/photo-details-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile-details-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/home-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/niki9011/PycharmProjects/mysite-django",
+    "last_opened_file_path": "/home/niki9011/PycharmProjects/python-web-django/petstagram/static/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,7 +131,12 @@
       <workItem from="1686130380725" duration="9328000" />
       <workItem from="1686161046889" duration="5593000" />
       <workItem from="1686239983168" duration="10602000" />
-      <workItem from="1686383006893" duration="3049000" />
+      <workItem from="1686383006893" duration="3238000" />
+      <workItem from="1686403012271" duration="19000" />
+      <workItem from="1686403857540" duration="145000" />
+      <workItem from="1686586783960" duration="40000" />
+      <workItem from="1686586838478" duration="89000" />
+      <workItem from="1686586943462" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1685213485160</created>
@@ -214,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686259006491</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update photo-details-page.html">
+      <created>1686398915468</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686398915468</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +256,7 @@
     <MESSAGE value="add models in common" />
     <MESSAGE value="add models in common and register admin" />
     <MESSAGE value="add like and share &#10;update common view and urls&#10;update home-page.html&#10;update pet-details-page.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add like and share &#10;update common view and urls&#10;update home-page.html&#10;update pet-details-page.html" />
+    <MESSAGE value="update photo-details-page.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update photo-details-page.html" />
   </component>
 </project>
