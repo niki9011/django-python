@@ -3,7 +3,6 @@ from petstagram.pets.models import Pet
 from petstagram.pets.forms import PetAddForm, PetEditForm, PedDeleteForm
 
 
-
 def pet_add(request):
     form = PetAddForm()
 
@@ -33,12 +32,14 @@ def pet_details(request, username, pet_name):
 
 def pet_edit(request, username, pet_name):
     pet = Pet.objects.filter(slug=pet_name).first()
-    form = PetEditForm(request.POST, instance=pet)
+    form = PetEditForm(instance=pet)
 
-    if form.is_valid():
-        form.save()
+    if request.method == "POST":
+        form = PetEditForm(request.POST, instance=pet)
+        if form.is_valid():
+            form.save()
 
-        return redirect('profile details', username=username, pet_name=pet_name)
+            return redirect('pet details', username=username, pet_name=pet_name)
 
     context = {
         "form": form,
@@ -50,4 +51,19 @@ def pet_edit(request, username, pet_name):
 
 
 def pet_delete(request, username, pet_name):
-    return render(request, 'pets/pet-delete-page.html')
+    pet = Pet.objects.filter(slug=pet_name).first()
+    form = PedDeleteForm
+
+    if request.method == "POST":
+        if form.is_valid(request.POST, instance=pet):
+            pet.delete()
+
+        return redirect('profile details', pk=1)
+
+    context = {
+        "form": form,
+        "username": username,
+        "pet_name": pet_name,
+    }
+
+    return render(request, 'pets/pet-delete-page.html', context=context)

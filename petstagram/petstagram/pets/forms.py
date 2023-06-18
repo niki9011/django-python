@@ -37,5 +37,8 @@ class PetEditForm(BaseForm):
     pass
 
 
-class PedDeleteForm(forms.ModelForm):
-    pass
+class PedDeleteForm(BaseForm):
+    def __int__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+
