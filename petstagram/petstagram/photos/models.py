@@ -10,7 +10,7 @@ class Photo(models.Model):
         blank=False,
         null=False,
         validators=(image_size_validator_5mb, ),
-        upload_to="mediafiles/photos",
+        upload_to="photos",
     )
     # optional
     description = models.TextField(

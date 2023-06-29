@@ -1,5 +1,5 @@
 {% extends 'base/base.html' %}
-{% block page_pet-delete %}
+{% block page_content %}
 
 <!-- Starts Main Section -->
 <main>
@@ -7,7 +7,7 @@
     <div class="edit-delete edit-photo">
         <h2>Delete pet</h2>
         <!-- Starts Delete Pet Form -->
-        <form action="{% url 'pet delete' username=username pet_name=pet_name %}">
+        <form action="{% url 'pet delete' username=username pet_name=pet_name %}" method="post">
            {% csrf_token %}
            {{ form.as_p }}
             <!-- Delete Pet Button -->
@@ -20,5 +20,6 @@
         <!-- End Delete Pet Form -->
     </div>
     <!-- End Delete Pet Section -->
+</main>
 
     {% endblock %}

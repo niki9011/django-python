@@ -1,11 +1,13 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
 <!-- Starts Head Section -->
 <head>
     <link rel="stylesheet"
-          href="/static/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="/static/images/free-30-instagram-stories-icons23_122570.png">
+          href="{%  static 'css/styles.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/free-30-instagram-stories-icons23_122570.png' %}">
     <title>Petstagram</title>
 </head>
 <!-- End Head Section -->
@@ -19,41 +21,6 @@
 <main>
     {% block page_content %}
     {% endblock %}
-
-    {% block page_register %}
-    {% endblock %}
-
-    {% block page_profile-edit %}
-    {% endblock %}
-
-    {% block page_profile-details %}
-    {% endblock %}
-
-    {% block page_profile-delete %}
-    {% endblock %}
-
-    {% block page_login %}
-    {% endblock %}
-
-    {% block page_pet-add %}
-    {% endblock  %}
-
-    {% block page_pet-delete %}
-    {% endblock %}
-
-    {% block page_pet-details %}
-    {% endblock %}
-
-    {% block page_pet-edit %}
-    {% endblock %}
-
-    {% block page_photo-edit %}
-    {% endblock %}
-
-    {% block page_photo-details %}
-    {% endblock %}
-
-
 </main>
 
 <!-- End Main Section -->

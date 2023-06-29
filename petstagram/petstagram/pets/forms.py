@@ -1,5 +1,5 @@
 from django import forms
-from petstagram.pets.models import Pet
+from .models import Pet
 
 
 class BaseForm(forms.ModelForm):
@@ -37,8 +37,10 @@ class PetEditForm(BaseForm):
     pass
 
 
-class PedDeleteForm(BaseForm):
+class PetDeleteForm(BaseForm):
     def __int__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-
+        for name, field in self.fields.items():
+            field.widget.attrs['disabled'] = 'disabled'
+            field.widget.attrs['readonly'] = 'readonly'

@@ -1,5 +1,6 @@
 {% extends 'base/base.html' %}
-{% block page_pet-details %}
+{% load static %}
+{% block page_content %}
 
 <!-- Starts Main Section -->
 <main>
@@ -52,7 +53,7 @@
                             <div class="profilepic">
                                 <div class="profile_img">
                                     <div class="image">
-                                        <img src="/static/images/person.png" alt="img8">
+                                        <img src="{% static 'images/person.png' %}" alt="img8">
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +74,7 @@
                 </div>
                 <!-- Post image -->
                 <div class="imgBx" id="place the id of the photo here">
-                    <img src="/static/images/axolotl.jpeg" alt="post" class="cover">
+                    <img src="{% static 'images/axolotl.jpeg' %}" alt="post" class="cover">
                 </div>
                 <!-- -->
 
@@ -186,9 +187,11 @@
             <!-- IF Photos End Pet Photos Post Section -->
             {% else %}
             <!-- IF NOT Photos Show No Post Image -->
-            <img class="no-posts" src="/static/images/no_posts.png" alt="no posts image">
+            <img class="no-posts" src="{% static 'images/no_posts.png' %}" alt="no posts image">
             {% endif %}
         </div>
     </div>
+
+</main>
 
    {% endblock %}
